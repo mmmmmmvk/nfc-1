@@ -34,7 +34,7 @@ const Skills = () => {
     <motion.h2>
         Adobe After Effects
     </motion.h2>
-    <motion.img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png" alt="Aelogo" />
+    <motion.img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" alt="After Effects logo" />
     </motion.div>
     <motion.div variants={fadeInAnimationVariants}
     initial="initial"
@@ -55,7 +55,7 @@ const Skills = () => {
     <motion.h2>
         Maxon Cinema 4D
     </motion.h2>
-    <motion.img src="https://upload.wikimedia.org/wikipedia/fr/d/d8/C4D_Logo.png" alt="Aelogo" />
+    <motion.img src="https://cdn.simpleicons.org/cinema4d" alt="Cinema 4D logo" />
     </motion.div>
     </div>
   )
