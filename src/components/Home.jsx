@@ -35,14 +35,20 @@ function Home() {
         <Canvas>
           <Experience />
           <directionalLight intensity={2} position={[0, 2, 3]} />
-          <Environment files="/img/studio_hdri.hdr" environmentIntensity={5} />
+          <Environment
+  files={`${import.meta.env.BASE_URL}img/studio_hdri.hdr`}
+  environmentIntensity={5}
+/>
         </Canvas>
       </div>
       <div className="wordmarksectionmobile">
         <Canvas>
           <Experiencemobile />
           <directionalLight intensity={2} position={[0, 2, 3]} />
-          <Environment files="/img/studio_hdri.hdr" environmentIntensity={5} />
+          <Environment
+  files={`${import.meta.env.BASE_URL}img/studio_hdri.hdr`}
+  environmentIntensity={5}
+/>
         </Canvas>
       </div>
       <div>
